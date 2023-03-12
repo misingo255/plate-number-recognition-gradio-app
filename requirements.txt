@@ -1,0 +1,6 @@
+numpy
+tensorflow
+tensorflow-hub
+imutils
+easyocr
+opencv
