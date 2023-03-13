@@ -1,4 +1,3 @@
-
 import numpy as np
 import tensorflow as tf
 import tensorflow_hub as hub
@@ -73,6 +72,10 @@ def classify(image):
             license_numbers.append(value[1])
 
         values = " ".join(license_numbers)
+
+        values = str(values)
+
+        values = values.upper()
 
         message = "The recognized plate license number is: "+values
 
